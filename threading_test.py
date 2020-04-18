@@ -32,7 +32,7 @@ def thread_res():
 
 # -------------------------------多进程并发---------------------------------#
 def process_res():
-    for t in process_num:
+    for t in iter_num:
         num = int(t) + 1
         print('\n' + '\n' + '-------------------' + f'第{num}次迭代开始' + '-------------------' + '\n')
         for i in process_num:
